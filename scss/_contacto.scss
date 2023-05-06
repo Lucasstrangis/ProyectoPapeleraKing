@@ -1,0 +1,29 @@
+form{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    h2{
+        font-size: 30px;
+    }
+    .nombre{
+        margin-top: 10px;
+    }
+    .correo{
+        margin-top: 10px;
+    }
+    .texto{
+        margin-top: 10px;
+    }
+    
+}
+
+.iconosContacto{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.wsp{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}

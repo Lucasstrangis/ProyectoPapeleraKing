@@ -55,20 +55,20 @@ p{
     margin-top: 40px;
     width: 1200px;
     height: 600px;
-} 
+}  */
 
-.mapa{
+/* .mapa{
     width: 600px;
     height: 300px;
-}
+} */
 
-.mainInicio{
+/* .mainInicio{
     margin-top: 40px;
     display: flex;
     justify-content: center;
-}
+} */
 
-.textoInicio{
+/* .textoInicio{
     text-align: center;
 }
 
@@ -80,8 +80,8 @@ p{
 .divInicio{
     margin: 60px;
     margin-bottom: 60px;
-}
- */
+} */
+
 
 /* Nosotros */
 
@@ -206,8 +206,8 @@ h2{
 /* media quieries */
 
 /* celular */
-
-/* @media screen and (max-width: 480px) 
+/* 
+@media screen and (max-width: 480px) 
 {
 
     .bloque{
@@ -254,5 +254,7 @@ h2{
         margin-top: 20px;
     }
     
-}  */
+}
+ */
+
 

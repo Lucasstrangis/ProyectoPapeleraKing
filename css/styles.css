@@ -1,0 +1,221 @@
+/* Variables */
+.mainInicio {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.mainInicio img {
+  margin-top: 40px;
+  width: 1200px;
+  height: 600px;
+}
+
+.divInicio {
+  margin: 60px;
+  margin-bottom: 60px;
+}
+.divInicio .textoInicio {
+  text-align: center;
+}
+.divInicio .mapaInicio {
+  display: flex;
+  justify-content: center;
+}
+.divInicio .mapaInicio iframe {
+  width: 600px;
+  height: 300px;
+}
+
+.divNosotrosCarro {
+  display: flex;
+  justify-content: center;
+}
+.divNosotrosCarro .carroNosotros {
+  margin-top: 60px;
+  width: 1200px;
+}
+
+.imgNosotros {
+  height: 800px;
+}
+
+.divNosotrosTexto {
+  margin: 60px;
+  margin-bottom: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.divNosotrosTexto p {
+  font-size: 25px;
+  text-align: center;
+  margin: 40px;
+}
+
+.divListas {
+  margin-top: 60px;
+  text-align: center;
+}
+.divListas ul {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.divListas ul li {
+  font-size: 20px;
+  list-style: none;
+}
+
+.divProductos {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.divProductos img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.divNovedades {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.ingresos {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.divIngresos {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 60px;
+}
+.divIngresos img {
+  margin-top: 60px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+form {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+form h2 {
+  font-size: 30px;
+}
+form .nombre {
+  margin-top: 10px;
+}
+form .correo {
+  margin-top: 10px;
+}
+form .texto {
+  margin-top: 10px;
+}
+
+.iconosContacto {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.wsp {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+@media screen and (max-width: 480px) {
+  .bloque {
+    display: block;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  .tituloHorario {
+    margin-top: 25px;
+  }
+  .horarios {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .divNovedades img {
+    margin-top: 15px;
+  }
+  .imgNovedades {
+    margin-top: 20px;
+  }
+  .imagenesProductos {
+    margin-top: 20px;
+  }
+  .formulario {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .bloque {
+    margin-left: 10px;
+    display: block;
+    margin-top: 5px;
+  }
+  .imgNovedades {
+    margin-top: 20px;
+  }
+  .imagenesProductos {
+    margin-top: 20px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(#000085, #0632d0);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a {
+  color: white;
+  margin-top: 50px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.logo {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.iconos {
+  text-align: center;
+}
+.iconos:hover {
+  transform: scale(2, 2);
+}
+
+/*# sourceMappingURL=styles.css.map */
