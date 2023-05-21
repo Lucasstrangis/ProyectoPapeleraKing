@@ -1,11 +1,24 @@
 @media screen and (max-width: 720px)
 { 
-
+    /* nav */
+    
     .bloque{
         margin-left: 10px;
         display: block;
         margin-top: 5px;
     }
+
+
+
+    /* productos */
+
+    .imagenesProductos{
+        margin-top: 20px;
+    }
+
+
+
+    /* novedades */
 
     .primerDivOfertas{
         align-items: center;
@@ -28,9 +41,9 @@
         }
     }
 
-    .imagenesProductos{
-        margin-top: 20px;
-    }
+
+
+    /* contacto */
 
     .formulario{
         margin-top: 25px;

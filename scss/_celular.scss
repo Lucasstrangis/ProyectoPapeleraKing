@@ -1,11 +1,15 @@
 @media screen and (max-width: 480px) 
 {
-
+    /* nav */
     .bloque{
         display: block;
         margin-top: 5px;
         margin-left: 10px;
     }
+
+
+
+    /* index */
 
     .tituloHorario{
         margin-top: 25px;
@@ -16,9 +20,23 @@
         margin-bottom: 15px;
     }
 
+
+    /* nosotros */
+
+    .divNosotrosTexto{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+
+    /* productos */
+
     .imagenesProductos{
         margin-top: 20px;
     }
+
+
+    /* novedades */
     
     .primerDivOfertas{
         align-items: center;
@@ -51,11 +69,17 @@
         }
         div{
             img{
-                width: 300px;
-                height: 300px;
+                width: 250px;
+                height: 250px;
+                &:hover{
+                    transform: scale(2,2);
+                }
             }
         }
     }
+
+
+    /* contacto */
 
     .formulario{
         margin-top: 25px;

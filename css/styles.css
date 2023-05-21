@@ -173,11 +173,13 @@ form .texto {
 }
 
 @media screen and (max-width: 480px) {
+  /* nav */
   .bloque {
     display: block;
     margin-top: 5px;
     margin-left: 10px;
   }
+  /* index */
   .tituloHorario {
     margin-top: 25px;
   }
@@ -185,9 +187,16 @@ form .texto {
     margin-top: 15px;
     margin-bottom: 15px;
   }
+  /* nosotros */
+  .divNosotrosTexto {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  /* productos */
   .imagenesProductos {
     margin-top: 20px;
   }
+  /* novedades */
   .primerDivOfertas {
     align-items: center;
   }
@@ -213,19 +222,29 @@ form .texto {
     margin-right: 0px;
   }
   .divIngresos div img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
   }
+  .divIngresos div img:hover {
+    transform: scale(2, 2);
+  }
+  /* contacto */
   .formulario {
     margin-top: 25px;
   }
 }
 @media screen and (max-width: 720px) {
+  /* nav */
   .bloque {
     margin-left: 10px;
     display: block;
     margin-top: 5px;
   }
+  /* productos */
+  .imagenesProductos {
+    margin-top: 20px;
+  }
+  /* novedades */
   .primerDivOfertas {
     align-items: center;
   }
@@ -244,9 +263,7 @@ form .texto {
   .tercerDivOfertas img {
     margin-top: 10px;
   }
-  .imagenesProductos {
-    margin-top: 20px;
-  }
+  /* contacto */
   .formulario {
     margin-top: 25px;
   }
