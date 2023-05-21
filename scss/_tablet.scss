@@ -7,12 +7,33 @@
         margin-top: 5px;
     }
 
-    .imgNovedades{
-        margin-top: 20px;
+    .primerDivOfertas{
+        align-items: center;
+        img{
+            margin-top: 10px;
+        }
+    }
+
+    .segundoDivOfertas{
+        align-items: center;
+        img{
+            margin-top: 10px;
+        }
+    }    
+
+    .tercerDivOfertas{
+        align-items: center;
+        img{
+            margin-top: 10px;
+        }
     }
 
     .imagenesProductos{
         margin-top: 20px;
+    }
+
+    .formulario{
+        margin-top: 25px;
     }
     
 }
